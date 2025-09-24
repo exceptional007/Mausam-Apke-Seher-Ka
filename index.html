@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mausam</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="./favicon_io(2)/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon_io(2)/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon_io(2)/favicon-16x16.png">
+    <link rel="manifest" href="./favicon_io(2)/site.webmanifest">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amarante&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Smooch+Sans:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <!-- <script src="./api-keys.js"></script> -->
+    <div class="container">
+        <h1>Mausam: Apke Seher Ka....</h1>
+        <div class="input-container">
+            <input type="text" id="city-input" placeholder="Enter Seher">
+            <button id="get-weather-btn">Get Mausam</button>
+        </div>
+        <div id="weather-info" class="hidden">
+            <h2 id="city-name"></h2>
+            <p id="temperature"></p>
+            <p id="description"></p>
+        </div>
+        <p id="error-message" class="hidden">Seher not Found. Please try Again.</p>
+        <p class="footer-text"><a href="https://github.com/exceptional007"><img alt="svgImg" src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIj8+PHN2ZyBmaWxsPSIjRkZGRkZGIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciICB2aWV3Qm94PSIwIDAgMzAgMzAiIHdpZHRoPSIzMHB4IiBoZWlnaHQ9IjMwcHgiPiAgICA8cGF0aCBkPSJNMTUsM0M4LjM3MywzLDMsOC4zNzMsMywxNWMwLDUuNjIzLDMuODcyLDEwLjMyOCw5LjA5MiwxMS42M0MxMi4wMzYsMjYuNDY4LDEyLDI2LjI4LDEyLDI2LjA0N3YtMi4wNTEgYy0wLjQ4NywwLTEuMzAzLDAtMS41MDgsMGMtMC44MjEsMC0xLjU1MS0wLjM1My0xLjkwNS0xLjAwOWMtMC4zOTMtMC43MjktMC40NjEtMS44NDQtMS40MzUtMi41MjYgYy0wLjI4OS0wLjIyNy0wLjA2OS0wLjQ4NiwwLjI2NC0wLjQ1MWMwLjYxNSwwLjE3NCwxLjEyNSwwLjU5NiwxLjYwNSwxLjIyMmMwLjQ3OCwwLjYyNywwLjcwMywwLjc2OSwxLjU5NiwwLjc2OSBjMC40MzMsMCwxLjA4MS0wLjAyNSwxLjY5MS0wLjEyMWMwLjMyOC0wLjgzMywwLjg5NS0xLjYsMS41ODgtMS45NjJjLTMuOTk2LTAuNDExLTUuOTAzLTIuMzk5LTUuOTAzLTUuMDk4IGMwLTEuMTYyLDAuNDk1LTIuMjg2LDEuMzM2LTMuMjMzQzkuMDUzLDEwLjY0Nyw4LjcwNiw4LjczLDkuNDM1LDhjMS43OTgsMCwyLjg4NSwxLjE2NiwzLjE0NiwxLjQ4MUMxMy40NzcsOS4xNzQsMTQuNDYxLDksMTUuNDk1LDkgYzEuMDM2LDAsMi4wMjQsMC4xNzQsMi45MjIsMC40ODNDMTguNjc1LDkuMTcsMTkuNzYzLDgsMjEuNTY1LDhjMC43MzIsMC43MzEsMC4zODEsMi42NTYsMC4xMDIsMy41OTQgYzAuODM2LDAuOTQ1LDEuMzI4LDIuMDY2LDEuMzI4LDMuMjI2YzAsMi42OTctMS45MDQsNC42ODQtNS44OTQsNS4wOTdDMTguMTk5LDIwLjQ5LDE5LDIyLjEsMTksMjMuMzEzdjIuNzM0IGMwLDAuMTA0LTAuMDIzLDAuMTc5LTAuMDM1LDAuMjY4QzIzLjY0MSwyNC42NzYsMjcsMjAuMjM2LDI3LDE1QzI3LDguMzczLDIxLjYyNywzLDE1LDN6Ii8+PC9zdmc+"/></a></p>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+</html>
